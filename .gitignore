@@ -20,6 +20,9 @@ env/
 Thumbs.db
 Desktop.ini
 
+# Sketch Arduino (projet séparé, hors dépôt widget)
+hydro_simplifie.ino
+
 # Secrets
 .env
 *.pem

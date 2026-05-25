@@ -63,7 +63,6 @@ Ou via le bouton **⚙** dans l'application.
 | `agent_dvr_widget.spec` | Configuration PyInstaller (build allégé) |
 | `build.bat` | Installe les deps, génère l'icône, compile |
 | `create_icon.py` | Génère `assets/camera.ico` |
-| `hydro_simplifie.ino` | Sketch Arduino (arrosage hydroponie, projet associé) |
 
 ## Publier une release GitHub (optionnel)
 
