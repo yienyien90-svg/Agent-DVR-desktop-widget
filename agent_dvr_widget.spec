@@ -165,7 +165,7 @@ def filter_datas(datas):
 
 
 a = Analysis(
-    ["test_widget.py"],
+    ["Agent-DVR-desktop-widget.py"],
     pathex=[],
     binaries=[],
     datas=[(ICON_FILE, "assets")],

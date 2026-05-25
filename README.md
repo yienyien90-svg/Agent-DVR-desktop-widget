@@ -26,7 +26,7 @@ Petit overlay Windows pour afficher le flux **Agent DVR** dans une fenêtre flot
 git clone https://github.com/yienyien90-svg/Agent-DVR-desktop-widget.git
 cd Agent-DVR-desktop-widget
 python -m pip install -r requirements.txt
-python test_widget.py
+python Agent-DVR-desktop-widget.py
 ```
 
 ## Compiler l'exécutable
@@ -47,7 +47,7 @@ Lancer_AgentDVR_Widget.bat
 
 ## Configuration
 
-Modifier l'URL par défaut dans `test_widget.py` :
+Modifier l'URL par défaut dans `Agent-DVR-desktop-widget.py` :
 
 ```python
 AGENT_DVR_URL = "http://localhost:8090/?viewIndex=0#Live"
@@ -59,7 +59,7 @@ Ou via le bouton **⚙** dans l'application.
 
 | Fichier | Rôle |
 |---------|------|
-| `test_widget.py` | Application principale |
+| `Agent-DVR-desktop-widget.py` | Application principale |
 | `agent_dvr_widget.spec` | Configuration PyInstaller (build allégé) |
 | `build.bat` | Installe les deps, génère l'icône, compile |
 | `create_icon.py` | Génère `assets/camera.ico` |
