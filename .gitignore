@@ -1,0 +1,25 @@
+# Build PyInstaller (trop volumineux pour GitHub — recompiler avec build.bat)
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Secrets
+.env
+*.pem
